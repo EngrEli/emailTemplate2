@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --grey-color: #515759;
+  --black-color: #0C1014;
+  --footer-color: #949494;
+  --link-color: #1890FF;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+.perfect-fit {
+  background-color: #FAFAFA;
+  padding: 15px;
+}
+
+.perfect-fit__header {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 32px;
+  color: var(--grey-color);
+}
+
+.perfect-fit__header img {
+  margin-bottom: 32px;
+}
+
+.perfect-fit__card {
+  margin-bottom: 56px;
+}
+
+.perfect-fit__card img {
+  width: 100%;
+}
+
+.perfect-fit__card-title {
+  margin-top: 24px;
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+}
+
+.perfect-fit__card-title h2 {
+  font-size: 1.5rem;
+  display: inline;
+  line-height: 1.375rem;
+  font-weight: 600;
+}
+
+.perfect-fit__card-title button {
+  display: inline-block;
+  font-size: 0.75rem;
+  border: 0;
+  background-color: #FFFFFF;
+  width: 64px;
+  border: 1px solid var(--link-color);
+  color: var(--link-color);
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.perfect-fit__card-content {
+  color: var(--grey-color);
+  margin-top: 16px;
+  font-size: 1rem;
+}
+
+.perfect-fit__footer {
+  color: var(--footer-color);
+  font-size: 0.75rem;
+  border-top: 1px solid #D6D7D9;
+  padding-top: 16px;
+}
+
+.perfect-fit__footer-down {
+  margin-top: 25px;
+}
+
+.perfect-fit__footer a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 690px) {
+  .perfect-fit {
+    max-width: 680px;
+    margin:5% auto;
+    padding: 48px 60px;
+    border-radius: 40px;
+  }
+
+  html {
+    font-size: 16px;
+  }
+}
